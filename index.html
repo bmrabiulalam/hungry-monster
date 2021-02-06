@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hungry Monster</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <!-- Search Bar Starts -->
+            <div class="search-container">
+                <input id="search-input" type="text" placeholder="Search for Meal...." name="search">
+                <button onclick="searchMeal()" type="submit">Search</button>
+            </div>
+            <!-- Search Bar Ends -->
+
+            <!-- Meal Details to be shown starts -->
+            <div id="meal-details"></div>
+            <!-- Meal Details to be shown ends -->
+
+            <!-- Error to be shown starts -->
+            <div id="errors"></div>
+            <!-- Error to be shown ends -->
+            
+            <!-- Meal Section Starts -->
+            <section id="meals"></section>
+            <!-- Meal Section Starts -->
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>

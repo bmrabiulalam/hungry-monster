@@ -1,0 +1,77 @@
+#container {
+  text-align: center;
+}
+.search-container input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  width: 400px;
+  border: none;
+  background-color: rgb(230, 228, 228);
+  border-start-start-radius: 5px;
+  border-end-start-radius: 5px;
+}
+.search-container button {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: -5px;
+  background: rgb(247, 101, 76);
+  font-size: 17px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-start-end-radius: 5px;
+  border-end-end-radius: 5px;
+}
+.search-container button:hover {
+  background: rgb(206, 92, 72);
+}
+#meals{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.per-meal-div{
+    width: 20vw;
+    margin: 5px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 7px;
+}
+.per-meal-div img{
+    width: 100%;
+    border-start-start-radius: 7px;
+    border-start-end-radius: 7px;
+}
+.per-meal-div p{
+    padding: 10px;
+}
+#meal-details{
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px;
+}
+#meal-details ul{
+    padding: 0;
+}
+#meal-details li{
+    list-style: none;
+    line-height: 25px;
+}
+#meal-details img{
+    width: 100%;
+    border-radius: 10px;
+}
+#errors{
+    margin: 0 auto;
+    width: 60%;
+    border: 3px solid rgb(241, 86, 86);
+    border-radius: 10px;
+    background-color: rgb(235, 181, 181);
+    display: none;
+    color: rgb(250, 59, 59);
+    font-size: 30px;
+    font-weight: 700;
+}
