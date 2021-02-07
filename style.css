@@ -1,5 +1,28 @@
-#container {
+#nav{
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(230, 228, 228, 0.486);
+}
+#nav h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(247, 101, 76);
+}
+#nav li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(109, 106, 106);
+}
+.search-container {
   text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .search-container input[type="text"] {
   padding: 6px;
@@ -28,16 +51,18 @@
   background: rgb(206, 92, 72);
 }
 #meals{
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 .per-meal-div{
-    width: 20vw;
-    margin: 5px;
+    width: 250px;
+    margin: 15px;
     background-color: rgb(236, 233, 233);
     border-radius: 7px;
+    cursor: pointer;
 }
 .per-meal-div img{
     width: 100%;
@@ -51,7 +76,9 @@
     width: 300px;
     text-align: left;
     margin: 0 auto;
-    padding: 40px;
+    padding: 30px;
+    background-color: rgb(226, 218, 218);
+    display: none;
 }
 #meal-details ul{
     padding: 0;
@@ -68,10 +95,11 @@
     margin: 0 auto;
     width: 60%;
     border: 3px solid rgb(241, 86, 86);
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: rgb(235, 181, 181);
     display: none;
-    color: rgb(250, 59, 59);
-    font-size: 30px;
+    color: rgb(235, 53, 53);
+    text-align: center;
+    font-size: 25px;
     font-weight: 700;
 }

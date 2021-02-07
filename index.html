@@ -7,27 +7,34 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="container">
-            <!-- Search Bar Starts -->
-            <div class="search-container">
-                <input id="search-input" type="text" placeholder="Search for Meal...." name="search">
-                <button onclick="searchMeal()" type="submit">Search</button>
-            </div>
-            <!-- Search Bar Ends -->
+        <section id="nav">
+            <h1>Hungry Monster</h1>
+            <ul>
+                <li>Home</li>
+                <li>Meals</li>
+                <li>Categories</li>
+                <li>About Us</li>
+            </ul>
+        </section>
+        <!-- Search Bar Starts -->
+        <section class="search-container">
+            <input id="search-input" type="text" placeholder="Search for Meal...." name="search">
+            <button onclick="searchMeal()" type="submit">Search</button>
+        </section>
+        <!-- Search Bar Ends -->
 
-            <!-- Meal Details to be shown starts -->
-            <div id="meal-details"></div>
-            <!-- Meal Details to be shown ends -->
+        <!-- Meal Details to be shown starts -->
+        <section id="meal-details"></section>
+        <!-- Meal Details to be shown ends -->
 
-            <!-- Error to be shown starts -->
-            <div id="errors"></div>
-            <!-- Error to be shown ends -->
-            
-            <!-- Meal Section Starts -->
-            <section id="meals"></section>
-            <!-- Meal Section Starts -->
-        </div>
+        <!-- Error to be shown starts -->
+        <section id="errors"></section>
+        <!-- Error to be shown ends -->
         
+        <!-- Meal Section Starts -->
+        <section id="meals"></section>
+        <!-- Meal Section Starts -->
+    
         <script src="app.js"></script>
     </body>
 </html>
