@@ -1,3 +1,7 @@
+body, html{
+    padding:0;
+    margin:0;
+}
 #nav{
     padding: 0 5%;
     display: flex;
@@ -15,7 +19,7 @@
     list-style: none;
     display: inline;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: rgb(109, 106, 106);
 }

@@ -70,9 +70,9 @@ const searchMeal = () => {
                 const perMealDiv = document.createElement('div');
                 perMealDiv.className = 'per-meal-div';
                 perMealDiv.innerHTML = `
-                    <img src="${meal.strMealThumb}">
-                    <p>${meal.strMeal}</p>
-                    <input id="meal-id" type="hidden" value="${meal.idMeal}">
+                        <img src="${meal.strMealThumb}">
+                        <p>${meal.strMeal}</p>
+                        <input id="meal-id" type="hidden" value="${meal.idMeal}">
                 `;
                 mealsDiv.appendChild(perMealDiv);
             });
@@ -119,6 +119,9 @@ document.getElementById('meals').addEventListener('click', event => {
         };
 
         mealDetailsDiv.appendChild(ul);
+        // Show the meal details
         mealDetailsDiv.style.display = 'block';
+        // Get to the div showing the meal recipe details
+        mealDetailsDiv.scrollIntoView();
     });
 });
